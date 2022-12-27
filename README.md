@@ -1,46 +1,85 @@
-# Getting Started with Create React App
+# hosPETal
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 웹서비스 소개
 
-## Available Scripts
+내 반려동물이 아플 때, 간단하고 빠르게 근처 동물병원을 찾고 예약할 수 있는 동물병원 예약 서비스입니다. <br/>
 
-In the project directory, you can run:
+해당 레파지토리는 동물병원이 사용하기 위한 용도로 제작되었습니다. <br/>
+[보호자가 사용하는 서비스는 다음에서 확인 가능합니다.](https://github.com/0000FF-Team/hosPETal-user-frontend)
 
-### `npm start`
+<br/>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 개발 기간
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+🗓️ 22.12.19 ~ 23.01.20
 
-### `npm test`
+## 기술 스택
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### **Front-end**
 
-### `npm run build`
+- **보호자**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+| 언어 | TypeScript |
+| --- | --- |
+| 라이브러리 | React |
+| 프레임워크 | Next.js |
+| 상태 관리 | Redux/Redux-toolkit, React-Query |
+| 패키지 관리자 | yarn berry - PnP(Zero-install) |
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<br/>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **동물병원**
 
-### `npm run eject`
+| 언어 | TypeScript |
+| --- | --- |
+| 라이브러리 | React |
+| 상태 관리 | Redux/Redux-toolkit, React-Query |
+| 패키지 관리자 | yarn berry |
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+<br/>
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### **Back-end**
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- Java 17 or 11
+- Spring Boot 3.0
+- MySQL
+- Spring Data JPA
+- Spring REST docs
+- Spring Security
+- Jenkins or Github Actions
+- Docker
+- AWS RDS, EC2, S3
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<br/>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 주요 기능
+
+### 동물병원
+
+- 동물병원 등록
+- 예약 유저 조회
+- 예약 승인 및 반려 관리
+
+### 보호자
+
+- 위치기반 동물병원 검색
+- 병원 상세 정보 조회
+- 동물병원 예약
+- 내 반려동물 정보 등록
+
+## 데모 영상
+
+## 프로젝트 실행 방법
+
+```bash
+yarn / yarn install
+yarn start
+```
+
+
+## 기획자료
+- [노션 문서](https://yiwoojung-personal.notion.site/hosPETal-3c86c423b9474d47bc7b4c82f2d780c9)
+- [와이어프레임](https://www.figma.com/file/uAZLZ5hG28BCVaVtiloocN/hosPETal?node-id=0%3A1&t=WwVvC6cq69Pi0QLw-0)
+- [디자인](https://www.figma.com/file/uAZLZ5hG28BCVaVtiloocN/hosPETal?node-id=292%3A839&t=WwVvC6cq69Pi0QLw-0)
