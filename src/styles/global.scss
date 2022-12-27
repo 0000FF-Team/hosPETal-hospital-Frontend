@@ -34,6 +34,8 @@ $height: 45px;
 
 * {
   box-sizing: border-box;
+  text-decoration: none;
+  color: $black3;
 }
 
 .title {
@@ -42,6 +44,25 @@ $height: 45px;
   line-height: 24px;
   text-align: center;
   padding-bottom: 30px;
+}
+
+button {
+  cursor: pointer;
+  width: 340px;
+  height: $height;
+  margin-bottom: 16px;
+  border-radius: 6px;
+  border: none;
+  background-color: $primary;
+  color: $white;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+
+  &:hover {
+    background-color: $primary300;
+    transition: background 0.2s ease-out;
+  }
 }
 
 input {

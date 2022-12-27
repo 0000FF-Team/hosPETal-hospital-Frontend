@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../../styles/login.scss";
 
 export default function LoginPage() {
@@ -13,8 +14,11 @@ export default function LoginPage() {
         <div className="error"> 에러메세지</div>
       </div>
 
-      <button className="btn btn_login">로그인하기</button>
-      <button className="btn btn_signup">회원가입하기</button>
+      <button className="btn_login">로그인하기</button>
+
+      <Link to={"/signup"}>
+        <button className="btn_empty">회원가입하기</button>
+      </Link>
     </div>
   );
 }

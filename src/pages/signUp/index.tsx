@@ -34,7 +34,7 @@ export default function SignUpPage() {
         </div>
         <div className="error">에러메세지</div>
 
-        <button className="btn btn_next">다음 단계로 이동</button>
+        <button className="btn_disabled btn_next">다음 단계로 이동</button>
       </div>
     </div>
   );
