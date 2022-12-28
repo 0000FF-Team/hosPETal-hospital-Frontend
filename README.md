@@ -19,22 +19,26 @@
 
 - **보호자**
 
-| 언어 | TypeScript |
+| 분류 | 종류 |
 | --- | --- |
+| 언어 | TypeScript |
 | 라이브러리 | React |
 | 프레임워크 | Next.js |
 | 상태 관리 | Redux/Redux-toolkit, React-Query |
 | 패키지 관리자 | yarn berry - PnP(Zero-install) |
+| 스타일 | Emotion |
 
 <br/>
 
 - **동물병원**
 
-| 언어 | TypeScript |
+| 분류 | 종류 |
 | --- | --- |
+| 언어 | TypeScript |
 | 라이브러리 | React |
 | 상태 관리 | Redux/Redux-toolkit, React-Query |
 | 패키지 관리자 | yarn berry |
+| 스타일 | SCSS, MUI, Emotion |
 
 <br/>
 
