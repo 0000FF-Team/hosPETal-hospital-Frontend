@@ -38,17 +38,32 @@ $height: 45px;
   color: $black3;
 }
 
-.title {
+h1 {
   font-weight: 600;
-  font-size: 20px;
+  font-size: 22px;
+  line-height: 29px;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 18px;
   line-height: 24px;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+h3 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
   text-align: center;
   padding-bottom: 30px;
 }
 
 button {
   cursor: pointer;
-  width: 340px;
   height: $height;
   margin-bottom: 16px;
   border-radius: 6px;
@@ -84,6 +99,11 @@ input {
     font-size: 16px;
     line-height: 19px;
   }
+}
+
+.checkbox {
+  width: 20px;
+  height: 20px;
 }
 
 .icon {
