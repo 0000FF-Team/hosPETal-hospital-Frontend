@@ -17,6 +17,18 @@
 
 ### **Front-end**
 
+- **동물병원(해당 레파지토리)**
+
+| 분류 | 종류 |
+| --- | --- |
+| 언어 | TypeScript |
+| 라이브러리 | React |
+| 상태 관리 | Redux/Redux-toolkit, React-Query |
+| 패키지 관리자 | yarn berry |
+| 스타일 | SCSS, MUI, Emotion |
+
+<br/>
+
 - **보호자**
 
 | 분류 | 종류 |
@@ -27,18 +39,6 @@
 | 상태 관리 | Redux/Redux-toolkit, React-Query |
 | 패키지 관리자 | yarn berry - PnP(Zero-install) |
 | 스타일 | Emotion |
-
-<br/>
-
-- **동물병원**
-
-| 분류 | 종류 |
-| --- | --- |
-| 언어 | TypeScript |
-| 라이브러리 | React |
-| 상태 관리 | Redux/Redux-toolkit, React-Query |
-| 패키지 관리자 | yarn berry |
-| 스타일 | SCSS, MUI, Emotion |
 
 <br/>
 
