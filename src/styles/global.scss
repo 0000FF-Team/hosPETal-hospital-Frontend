@@ -8,6 +8,7 @@ $primary600: #1e2630;
 
 // gray
 $gray100: #fafafa;
+// $gray100: #f7f7f7;
 $gray300: #bdbdbd;
 
 // black
@@ -36,6 +37,7 @@ $height: 45px;
   box-sizing: border-box;
   text-decoration: none;
   color: $black3;
+  margin: 0;
 }
 
 h1 {
