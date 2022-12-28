@@ -34,14 +34,50 @@ $height: 45px;
 
 * {
   box-sizing: border-box;
+  text-decoration: none;
+  color: $black3;
 }
 
-.title {
+h1 {
   font-weight: 600;
-  font-size: 20px;
+  font-size: 22px;
+  line-height: 29px;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 18px;
   line-height: 24px;
   text-align: center;
   padding-bottom: 30px;
+}
+
+h3 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+button {
+  cursor: pointer;
+  height: $height;
+  margin-bottom: 16px;
+  border-radius: 6px;
+  border: none;
+  background-color: $primary;
+  color: $white;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+
+  &:hover {
+    background-color: $primary300;
+    transition: background 0.2s ease-out;
+  }
 }
 
 input {
@@ -63,6 +99,11 @@ input {
     font-size: 16px;
     line-height: 19px;
   }
+}
+
+.checkbox {
+  width: 20px;
+  height: 20px;
 }
 
 .icon {
