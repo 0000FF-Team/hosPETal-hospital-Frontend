@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "../../styles/signUp.scss";
+import "../../styles/pages/signUp.scss";
 
 export default function SignUpPage() {
   return (

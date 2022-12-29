@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "../../styles/login.scss";
+import "../../styles/pages/login.scss";
 
 export default function LoginPage() {
   return (

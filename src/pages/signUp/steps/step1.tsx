@@ -1,6 +1,5 @@
 import React from "react";
 import ImageUploadInput from "../../../components/Inputs/ImageUploadInput";
-import "../../../styles/signUpSteps.scss";
 
 export default function SignUpStep1Page() {
   return (
