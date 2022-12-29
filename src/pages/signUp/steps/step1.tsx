@@ -12,18 +12,19 @@ export default function SignUpStep1Page() {
         <input className="step_input" />
       </div>
 
-      <div className="step_input_wrapper">
-        <h3 className="step_h3">병원 소개</h3>
-        <input />
+      <div className="step_top_input_wrapper">
+        <h3 className="step_h3_top">병원 소개</h3>
+        <textarea></textarea>
       </div>
 
       <div className="step_input_wrapper">
         <h3 className="step_h3">*전화</h3>
-        <input />
+        <input type="number" /> - <input type="number" /> -{" "}
+        <input type="number" />
       </div>
 
       <div className="step_top_input_wrapper">
-        <h3 className="step_1_h3_top">*소재지</h3>
+        <h3 className="step_h3_top">*소재지</h3>
 
         <div className="step_input_column_wrapper">
           <div>
@@ -39,7 +40,7 @@ export default function SignUpStep1Page() {
       </div>
 
       <div className="step_top_input_wrapper">
-        <h3 className="step_1_h3_top">병원 사진</h3>
+        <h3 className="step_h3_top">병원 사진</h3>
         <ImageUploadInput />
       </div>
     </div>
