@@ -1,0 +1,111 @@
+@import "./global.scss";
+@import "./variables.scss";
+
+button {
+  height: $height;
+  margin-bottom: 16px;
+  border-radius: 6px;
+  border: none;
+  background-color: $primary;
+  color: $white;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+
+  &:hover {
+    background-color: $primary300;
+    transition: background 0.2s ease-out;
+  }
+}
+
+.btn_empty {
+  width: 340px;
+  height: $height;
+  margin-bottom: 16px;
+  border-radius: 6px;
+  border: 1px solid $primary;
+  background-color: $white;
+  color: $primary;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+
+  &:hover {
+    border: 1px solid $primary300;
+    background-color: $white;
+    color: $primary300;
+    transition: all 0.2s ease-out;
+  }
+}
+
+.btn_disabled {
+  cursor: no-drop;
+  width: 340px;
+  height: $height;
+  margin-bottom: 16px;
+  border-radius: 6px;
+  border: 1px solid $gray300;
+  background-color: $white;
+  color: $gray300;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+
+  &:hover {
+    border: 1px solid $gray300;
+    background-color: $white;
+    color: $gray300;
+    transition: all 0.2s ease-out;
+  }
+}
+
+input {
+  width: 340px;
+  height: $height;
+  border-radius: 6px;
+  border: none;
+  background-color: $gray100;
+  padding: 13px;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: $black3;
+
+  ::placeholder {
+    color: $gray300;
+    font-size: 16px;
+    line-height: 19px;
+  }
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 29px;
+  text-align: center;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+}
+
+h3 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+}
+
+.checkbox {
+  width: 20px;
+  height: 20px;
+}
+
+.icon {
+  width: 24px;
+}

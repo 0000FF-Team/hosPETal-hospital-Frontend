@@ -3,7 +3,7 @@ import ProcessBar from "../../../components/ProcessBar";
 import SignUpStep1Page from "./step1";
 import SignUpStep2Page from "./step2";
 import SignUpStep3Page from "./step3";
-import "../../../styles/pages/signUpSteps.scss";
+import "../../../styles/pages/steps.scss";
 
 export default function SignUpStepsPage() {
   return (

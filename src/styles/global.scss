@@ -1,111 +1,23 @@
-// primary
-$primary: #1a8de9;
-$primary100: #e0effb;
-$primary200: #a5d7ff;
-$primary300: #68bcff;
-$primary500: #1f60b1;
-$primary600: #1e2630;
-
-// gray
-// $gray100: #fafafa;
-// $gray100: #f7f7f7;
-$gray100: #f5f5f5;
-$gray300: #bdbdbd;
-
-// black
-$black: rgba(0, 0, 0);
-$black3: #333;
-$black80: rgba(0, 0, 0, 0.8);
-$black60: rgba(0, 0, 0, 0.6);
-$black40: rgba(0, 0, 0, 0.4);
-
-// white
-$white: rgb(255, 255, 255);
-
-// error
-$error: #ff3f4c;
-$errorLight: #ffabb1;
-
-// background
-$bg1: #fcfcfc;
-$bg2: #f7f7f7;
-$bg3: #f0f2f5;
-
-// size
-$height: 45px;
-
 * {
   box-sizing: border-box;
-  text-decoration: none;
-  color: $black;
+  outline: none;
+  border: none;
+  color: #000;
   margin: 0;
 }
-
-h1 {
-  font-weight: 600;
-  font-size: 22px;
-  line-height: 29px;
-  text-align: center;
+body {
+  font-family: "Noto Sans KR", sans-serif;
 }
 
-h2 {
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 24px;
-  text-align: center;
-}
-
-h3 {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 19px;
-  text-align: center;
+a {
+  text-decoration: none;
 }
 
 button {
+  padding: 0;
   cursor: pointer;
-  height: $height;
-  margin-bottom: 16px;
-  border-radius: 6px;
-  border: none;
-  background-color: $primary;
-  color: $white;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 19px;
-
-  &:hover {
-    background-color: $primary300;
-    transition: background 0.2s ease-out;
-  }
 }
 
-input {
-  width: 340px;
-  height: $height;
-  border-radius: 6px;
-  border: none;
-  background-color: $gray100;
-  padding: 13px;
-
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 19px;
-
-  color: $black3;
-
-  ::placeholder {
-    color: $gray300;
-    font-size: 16px;
-    line-height: 19px;
-  }
-}
-
-.checkbox {
-  width: 20px;
-  height: 20px;
-}
-
-.icon {
-  width: 24px;
+strong {
+  font-weight: bold;
 }

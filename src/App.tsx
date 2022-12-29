@@ -1,6 +1,8 @@
 import React from "react";
 import "./App.css";
 import "./styles/global.scss";
+import "./styles/variables.scss";
+import "./styles/commons.scss";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import LoginPage from "./pages/login";
 import SignUpPage from "./pages/signUp";
