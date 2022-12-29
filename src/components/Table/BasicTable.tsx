@@ -8,7 +8,6 @@ import TableRow from "@mui/material/TableRow";
 import Paper from "@mui/material/Paper";
 import TimePicker01 from "../TimePicker/TimePicker01";
 import Stack from "@mui/material/Stack";
-import DesktopTimePicker01 from "../TimePicker/DesktopTimePicker01";
 
 function createData(
   day: string,
@@ -38,13 +37,13 @@ export default function BasicTable() {
         <TableHead>
           <TableRow>
             <TableCell>요일</TableCell>
-            <TableCell>휴진일</TableCell>
-            <TableCell>진료시간</TableCell>
+            <TableCell align="center">휴진일</TableCell>
+            <TableCell align="center">진료시간</TableCell>
             <TableCell align="center">
               점심시간
               <br /> 없음
             </TableCell>
-            <TableCell>점심시간</TableCell>
+            <TableCell align="center">점심시간</TableCell>
           </TableRow>
         </TableHead>
         <TableBody>
@@ -56,10 +55,10 @@ export default function BasicTable() {
               <TableCell component="th" scope="row">
                 {row.day}
               </TableCell>
-              <TableCell>
+              <TableCell align="center">
                 <input className="checkbox" type="checkbox" />
               </TableCell>
-              <TableCell>
+              <TableCell align="center">
                 <Stack spacing={2}>
                   <TimePicker01 label="진료 시작 시간" />
                   <TimePicker01 label="진료 종료 시간" />

@@ -7,8 +7,9 @@ $primary500: #1f60b1;
 $primary600: #1e2630;
 
 // gray
-$gray100: #fafafa;
+// $gray100: #fafafa;
 // $gray100: #f7f7f7;
+$gray100: #f5f5f5;
 $gray300: #bdbdbd;
 
 // black
@@ -36,7 +37,7 @@ $height: 45px;
 * {
   box-sizing: border-box;
   text-decoration: none;
-  color: $black3;
+  color: $black;
   margin: 0;
 }
 
@@ -45,7 +46,6 @@ h1 {
   font-size: 22px;
   line-height: 29px;
   text-align: center;
-  padding-bottom: 30px;
 }
 
 h2 {
@@ -53,7 +53,6 @@ h2 {
   font-size: 18px;
   line-height: 24px;
   text-align: center;
-  padding-bottom: 30px;
 }
 
 h3 {
@@ -61,7 +60,6 @@ h3 {
   font-size: 16px;
   line-height: 19px;
   text-align: center;
-  padding-bottom: 30px;
 }
 
 button {

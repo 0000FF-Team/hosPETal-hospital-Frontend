@@ -30,6 +30,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["@emotion/react", "virtual:7bcd85daaae73920b83715c095ca710b7018d4037142d800cd5747e3f9d7b555d16f4b5bb59649e07334599a3375b32b07146e877c54d7b58261ecd952066060#npm:11.10.5"],\
             ["@emotion/styled", "virtual:7bcd85daaae73920b83715c095ca710b7018d4037142d800cd5747e3f9d7b555d16f4b5bb59649e07334599a3375b32b07146e877c54d7b58261ecd952066060#npm:11.10.5"],\
+            ["@mui/icons-material", "virtual:7bcd85daaae73920b83715c095ca710b7018d4037142d800cd5747e3f9d7b555d16f4b5bb59649e07334599a3375b32b07146e877c54d7b58261ecd952066060#npm:5.11.0"],\
             ["@mui/lab", "virtual:7bcd85daaae73920b83715c095ca710b7018d4037142d800cd5747e3f9d7b555d16f4b5bb59649e07334599a3375b32b07146e877c54d7b58261ecd952066060#npm:5.0.0-alpha.114"],\
             ["@mui/material", "virtual:7bcd85daaae73920b83715c095ca710b7018d4037142d800cd5747e3f9d7b555d16f4b5bb59649e07334599a3375b32b07146e877c54d7b58261ecd952066060#npm:5.11.2"],\
             ["@mui/system", "virtual:7bcd85daaae73920b83715c095ca710b7018d4037142d800cd5747e3f9d7b555d16f4b5bb59649e07334599a3375b32b07146e877c54d7b58261ecd952066060#npm:5.11.2"],\
@@ -4069,6 +4070,33 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@mui-core-downloads-tracker-npm-5.11.2-cbb34ff353-1f2c45ef37.zip/node_modules/@mui/core-downloads-tracker/",\
           "packageDependencies": [\
             ["@mui/core-downloads-tracker", "npm:5.11.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@mui/icons-material", [\
+        ["npm:5.11.0", {\
+          "packageLocation": "./.yarn/cache/@mui-icons-material-npm-5.11.0-2a69112f17-764c1185b3.zip/node_modules/@mui/icons-material/",\
+          "packageDependencies": [\
+            ["@mui/icons-material", "npm:5.11.0"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:7bcd85daaae73920b83715c095ca710b7018d4037142d800cd5747e3f9d7b555d16f4b5bb59649e07334599a3375b32b07146e877c54d7b58261ecd952066060#npm:5.11.0", {\
+          "packageLocation": "./.yarn/__virtual__/@mui-icons-material-virtual-029415bc6e/0/cache/@mui-icons-material-npm-5.11.0-2a69112f17-764c1185b3.zip/node_modules/@mui/icons-material/",\
+          "packageDependencies": [\
+            ["@mui/icons-material", "virtual:7bcd85daaae73920b83715c095ca710b7018d4037142d800cd5747e3f9d7b555d16f4b5bb59649e07334599a3375b32b07146e877c54d7b58261ecd952066060#npm:5.11.0"],\
+            ["@babel/runtime", "npm:7.20.7"],\
+            ["@mui/material", "virtual:7bcd85daaae73920b83715c095ca710b7018d4037142d800cd5747e3f9d7b555d16f4b5bb59649e07334599a3375b32b07146e877c54d7b58261ecd952066060#npm:5.11.2"],\
+            ["@types/mui__material", null],\
+            ["@types/react", "npm:18.0.26"],\
+            ["react", "npm:18.2.0"]\
+          ],\
+          "packagePeers": [\
+            "@mui/material",\
+            "@types/mui__material",\
+            "@types/react",\
+            "react"\
           ],\
           "linkType": "HARD"\
         }]\
@@ -10395,6 +10423,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["hospetal-hospital-frontend", "workspace:."],\
             ["@emotion/react", "virtual:7bcd85daaae73920b83715c095ca710b7018d4037142d800cd5747e3f9d7b555d16f4b5bb59649e07334599a3375b32b07146e877c54d7b58261ecd952066060#npm:11.10.5"],\
             ["@emotion/styled", "virtual:7bcd85daaae73920b83715c095ca710b7018d4037142d800cd5747e3f9d7b555d16f4b5bb59649e07334599a3375b32b07146e877c54d7b58261ecd952066060#npm:11.10.5"],\
+            ["@mui/icons-material", "virtual:7bcd85daaae73920b83715c095ca710b7018d4037142d800cd5747e3f9d7b555d16f4b5bb59649e07334599a3375b32b07146e877c54d7b58261ecd952066060#npm:5.11.0"],\
             ["@mui/lab", "virtual:7bcd85daaae73920b83715c095ca710b7018d4037142d800cd5747e3f9d7b555d16f4b5bb59649e07334599a3375b32b07146e877c54d7b58261ecd952066060#npm:5.0.0-alpha.114"],\
             ["@mui/material", "virtual:7bcd85daaae73920b83715c095ca710b7018d4037142d800cd5747e3f9d7b555d16f4b5bb59649e07334599a3375b32b07146e877c54d7b58261ecd952066060#npm:5.11.2"],\
             ["@mui/system", "virtual:7bcd85daaae73920b83715c095ca710b7018d4037142d800cd5747e3f9d7b555d16f4b5bb59649e07334599a3375b32b07146e877c54d7b58261ecd952066060#npm:5.11.2"],\
