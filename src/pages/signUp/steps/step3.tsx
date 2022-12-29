@@ -1,7 +1,7 @@
 import styled from "@emotion/styled";
 import React from "react";
 import { Link } from "react-router-dom";
-import BasicDatePicker from "../../../components/DatePicker";
+import BasicDatePicker from "../../../components/Picker/DatePicker";
 
 export default function SignUpStep3Page() {
   return (

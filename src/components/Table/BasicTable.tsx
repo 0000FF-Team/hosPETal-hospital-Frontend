@@ -6,7 +6,7 @@ import TableContainer from "@mui/material/TableContainer";
 import TableHead from "@mui/material/TableHead";
 import TableRow from "@mui/material/TableRow";
 import Paper from "@mui/material/Paper";
-import TimePicker01 from "../TimePicker/TimePicker01";
+import TimePicker01 from "../Picker/TimePicker01";
 import Stack from "@mui/material/Stack";
 
 function createData(
