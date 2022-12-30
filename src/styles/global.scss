@@ -2,7 +2,6 @@
   box-sizing: border-box;
   outline: none;
   border: none;
-  color: #000;
   margin: 0;
 }
 body {
@@ -25,4 +24,10 @@ strong {
 ul,
 li {
   padding-left: 0;
+}
+
+h1,
+h2,
+h3 {
+  padding-bottom: 0;
 }

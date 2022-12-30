@@ -1,3 +1,8 @@
+import {
+  CheckCircleOutlined,
+  ClockCircleOutlined,
+  CloseCircleOutlined,
+} from "@ant-design/icons";
 import { Tag } from "antd";
 import React from "react";
 import "../../styles/pages/main.scss";
@@ -17,9 +22,15 @@ export default function ScheduleItem() {
 
       <div className="main_item_right_wrapper">
         <div className="">
-          <Tag color="default">예약 대기 중</Tag>
-          <Tag color="success">예약 확정</Tag>
-          <Tag color="error">예약 거절</Tag>
+          <Tag icon={<ClockCircleOutlined />} color="default">
+            예약 대기 중
+          </Tag>
+          <Tag icon={<CheckCircleOutlined />} color="success">
+            예약 확정
+          </Tag>
+          <Tag icon={<CloseCircleOutlined />} color="error">
+            예약 거절
+          </Tag>
         </div>
 
         <div className="main_btn_wrapper">

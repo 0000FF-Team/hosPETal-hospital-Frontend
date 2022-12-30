@@ -3,6 +3,7 @@ import React from "react";
 import NoticeCalendar from "../components/Calendar";
 import ScheduleItem from "../components/ScheduleItem";
 import SimpleTable from "../components/Table/SimpleTable";
+import WaitingListItem from "../components/WaitingListItem";
 import "../styles/pages/main.scss";
 
 export default function MainPage() {
@@ -28,15 +29,14 @@ export default function MainPage() {
 
         <div className="waiting_list_wrapper">
           <div className="waiting_list_title_wrapper">
-            <h3>예약 대기 환자</h3>
-            <h3 className="">2022년 12월 23일 금요일</h3>
+            <h1>예약 대기 환자</h1>
+            <h2 className="today">2022년 12월 23일 금요일</h2>
           </div>
 
-          <div className="waiting_lists">
-            <div className="waiting_list">환자 리스트</div>
-            <div className="waiting_list">환자 리스트</div>
-            <div className="waiting_list">환자 리스트</div>
-            <div className="waiting_list">환자 리스트</div>
+          <div className="waiting_list_item_wrapper">
+            {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12].map((el) => (
+              <WaitingListItem key={el} />
+            ))}
           </div>
         </div>
       </div>

@@ -44,9 +44,10 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  background-color: $gray100;
+  background-color: $bg2;
   padding: 20px;
   margin-bottom: 20px;
+  border-radius: 6px;
 }
 
 .main_item_pet_info {
@@ -76,8 +77,9 @@
   display: flex;
   flex-direction: column;
   width: 100%;
-  padding: 20px;
-  background-color: lightgreen;
+  padding: 30px;
+  border-radius: 8px;
+  background-color: $bg3;
 }
 
 .waiting_list_title_wrapper {
@@ -85,13 +87,65 @@
   padding-bottom: 20px;
 }
 
-.waiting_lists {
+.today {
+  padding-left: 20px;
+}
+
+.waiting_list_item_wrapper {
+  cursor: pointer;
   display: flex;
+  overflow: scroll;
 }
 
 .waiting_list {
   width: 193px;
   height: 272px;
   margin-right: 20px;
-  background-color: lightgrey;
+  background-color: $white;
+  border-radius: 6px;
+}
+
+.info_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+}
+
+.profile_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info_reserve_time {
+  padding: 0 5px;
+  margin-bottom: 10px;
+}
+
+.profile {
+  width: 80px;
+  height: 80px;
+  border-radius: 50px;
+  background-color: $bg3;
+  margin-bottom: 10px;
+}
+
+.profile_species {
+  font-size: 15px;
+}
+
+.profile_age_sex {
+  font-size: 15px;
+  color: $black3;
+  padding-bottom: 10px;
+}
+
+.info_category {
+  margin-bottom: 10px;
+}
+
+.info_specific {
+  padding-left: 5px;
+  font-size: 15px;
 }
