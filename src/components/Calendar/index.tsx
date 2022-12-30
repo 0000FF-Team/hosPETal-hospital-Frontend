@@ -6,27 +6,21 @@ import type { Dayjs } from "dayjs";
 const getListData = (value: Dayjs) => {
   let listData;
   switch (value.date()) {
-    case 8:
-      listData = [
-        { type: "warning", content: "This is warning event." },
-        { type: "success", content: "This is usual event." },
-      ];
-      break;
     case 10:
       listData = [
-        { type: "warning", content: "This is warning event." },
-        { type: "success", content: "This is usual event." },
-        { type: "error", content: "This is error event." },
+        { type: "warning", content: "예약 대기" },
+        { type: "success", content: "예약 확정" },
+        { type: "error", content: "예약 거절" },
       ];
       break;
     case 15:
       listData = [
-        { type: "warning", content: "This is warning event" },
-        { type: "success", content: "This is very long usual event。。...." },
-        { type: "error", content: "This is error event 1." },
-        { type: "error", content: "This is error event 2." },
-        { type: "error", content: "This is error event 3." },
-        { type: "error", content: "This is error event 4." },
+        { type: "warning", content: "치아 검진" },
+        { type: "success", content: "건강 검진" },
+        { type: "error", content: "예방 접종" },
+        { type: "warning", content: "치아 검진" },
+        { type: "success", content: "건강 검진" },
+        { type: "error", content: "예방 접종" },
       ];
       break;
     default:
@@ -46,7 +40,7 @@ const NoticeCalendar: React.FC = () => {
     return num ? (
       <div className="notes-month">
         <section>{num}</section>
-        <span>Backlog number</span>
+        <span>총 예약 수</span>
       </div>
     ) : null;
   };

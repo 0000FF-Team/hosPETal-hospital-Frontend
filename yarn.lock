@@ -56,7 +56,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@ant-design/icons@npm:^4.7.0":
+"@ant-design/icons@npm:^4.7.0, @ant-design/icons@npm:^4.8.0":
   version: 4.8.0
   resolution: "@ant-design/icons@npm:4.8.0"
   dependencies:
@@ -7539,6 +7539,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "hospetal-hospital-frontend@workspace:."
   dependencies:
+    "@ant-design/icons": ^4.8.0
     "@emotion/react": ^11.10.5
     "@emotion/styled": ^11.10.5
     "@mui/icons-material": ^5.11.0

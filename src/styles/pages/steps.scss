@@ -136,35 +136,6 @@
   align-items: center;
 }
 
-.btn_add {
-  width: 45px;
-  height: 45px;
-  margin-bottom: 0;
-  margin-left: 10px;
-  background-color: $white;
-  border: 1px solid $primary;
-  color: $primary;
-
-  &:hover {
-    background-color: $primary;
-    color: $white;
-  }
-}
-
-.btn_delete {
-  width: 45px;
-  height: 45px;
-  margin-bottom: 0;
-  background-color: $white;
-  border: 1px solid $error;
-  color: $error;
-
-  &:hover {
-    background-color: $error;
-    color: $white;
-  }
-}
-
 .step_btn_wrapper {
   width: 720px;
   display: flex;

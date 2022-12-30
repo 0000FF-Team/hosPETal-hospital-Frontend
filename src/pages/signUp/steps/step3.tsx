@@ -15,7 +15,7 @@ export default function SignUpStep3Page() {
           <div className="step_3_input_wrapper">
             <input className="step_3_input_name" />
 
-            <button className="btn_add">추가</button>
+            <button className="btn_approve_empty btn_small">추가</button>
           </div>
         </div>
 
@@ -37,8 +37,8 @@ export default function SignUpStep3Page() {
             <input className="step_3_input_name" />
 
             <div className="step_3_btn_wrapper">
-              <button className="btn_delete">삭제</button>
-              <button className="btn_add">추가</button>
+              <button className="btn_cancel_empty btn_small">삭제</button>
+              <button className="btn_approve_empty btn_small">추가</button>
             </div>
           </div>
         </div>
