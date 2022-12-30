@@ -1,7 +1,7 @@
 import styled from "@emotion/styled";
 import React from "react";
 import { Link } from "react-router-dom";
-import BasicDatePicker from "../../../components/Picker/DatePicker";
+import DatePicker02 from "../../../components/Picker/DatePicker02";
 
 export default function SignUpStep3Page() {
   return (
@@ -24,7 +24,7 @@ export default function SignUpStep3Page() {
 
           <div className="step_license_input_wrapper">
             <input className="step_3_input_license" />
-            <BasicDatePicker />
+            <DatePicker02 placeholder={"취득일을 입력하세요."} />
           </div>
         </div>
       </div>
@@ -48,10 +48,7 @@ export default function SignUpStep3Page() {
 
           <div className="step_license_input_wrapper">
             <input className="step_3_input_license" />
-            {/* <div className="date_wrapper"> */}
-            {/* <h3 className="step_h3_date">취득일</h3> */}
-            <BasicDatePicker />
-            {/* </div> */}
+            <DatePicker02 placeholder={"취득일을 입력하세요."} />
           </div>
         </div>
       </div>
