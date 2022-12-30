@@ -1,7 +1,6 @@
 import { Tag } from "antd";
 import React from "react";
 import NoticeCalendar from "../components/Calendar";
-import CalendarPicker from "../components/Picker/CalendarPicker";
 import ScheduleItem from "../components/ScheduleItem";
 import SimpleTable from "../components/Table/SimpleTable";
 import "../styles/pages/main.scss";
@@ -14,7 +13,6 @@ export default function MainPage() {
       <div className="main_wrapper">
         <div className="main_top_wrapper">
           <div className="calendar_wrapper">
-            {/* <CalendarPicker /> */}
             <NoticeCalendar />
           </div>
           <div className="schedule_wrapper">
@@ -30,8 +28,8 @@ export default function MainPage() {
 
         <div className="waiting_list_wrapper">
           <div className="waiting_list_title_wrapper">
-            <strong>예약 대기 환자</strong>
-            <h3>2022년 12월 23일 금요일</h3>
+            <h3>예약 대기 환자</h3>
+            <h3 className="">2022년 12월 23일 금요일</h3>
           </div>
 
           <div className="waiting_lists">

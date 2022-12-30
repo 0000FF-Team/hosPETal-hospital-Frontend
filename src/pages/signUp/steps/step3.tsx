@@ -52,18 +52,6 @@ export default function SignUpStep3Page() {
           </div>
         </div>
       </div>
-
-      <div className="step_btn_wrapper">
-        <Link to={"/signup"}>
-          <button className="btn_empty btn_go_back">
-            회원 정보 등록으로 돌아가기
-          </button>
-        </Link>
-
-        <Link to={"/main"}>
-          <button className="btn_submit">병원 정보 등록하기</button>
-        </Link>
-      </div>
     </div>
   );
 }
