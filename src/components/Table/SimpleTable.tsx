@@ -5,51 +5,80 @@ const { Column, ColumnGroup } = Table;
 
 interface DataType {
   key: React.Key;
-  pet: string;
-  age: number;
-  sex: string;
-  species: string;
+  day: string;
+  workingHour: string;
+  lunchHour: string;
   category: string[];
 }
 
 const data: DataType[] = [
   {
     key: "1",
-    pet: "뚱이",
-    age: 11,
-    sex: "여",
-    species: "미니핀",
-    category: ["건강검진"],
+    day: "월",
+    workingHour: "9:00 - 18:00",
+    lunchHour: "12:00 - 13:00",
+    category: [],
   },
   {
     key: "2",
-    pet: "차차",
-    age: 3,
-    sex: "남",
-    species: "코리안 숏헤어",
-    category: ["치아 검진", "예방접종"],
+    day: "화",
+    workingHour: "9:00 - 22:00",
+    lunchHour: "12:00 - 13:00",
+    category: ["야간 진료"],
   },
   {
     key: "3",
-    pet: "루시",
-    age: 1,
-    sex: "남",
-    species: "닥스훈트",
-    category: ["예방접종"],
+    day: "수",
+    workingHour: "9:00 - 14:00",
+    lunchHour: "12:00 - 13:00",
+    category: [],
+  },
+  {
+    key: "4",
+    day: "목",
+    workingHour: "9:00 - 18:00",
+    lunchHour: "12:00 - 13:00",
+    category: [],
+  },
+  {
+    key: "5",
+    day: "금",
+    workingHour: "9:00 - 18:00",
+    lunchHour: "12:00 - 13:00",
+    category: [],
+  },
+  {
+    key: "6",
+    day: "토",
+    workingHour: "9:00 - 14:00",
+    lunchHour: "-",
+    category: ["점심시간 없음"],
+  },
+  {
+    key: "7",
+    day: "일",
+    workingHour: "-",
+    lunchHour: "-",
+    category: ["휴무"],
+  },
+  {
+    key: "8",
+    day: "공휴일",
+    workingHour: "9:00 - 14:00",
+    lunchHour: "-",
+    category: ["점심시간 없음"],
   },
 ];
 
 const SimpleTable: React.FC = () => (
-  <Table dataSource={data} style={{ height: "100%" }}>
-    <ColumnGroup title="반려동물">
-      <Column title="이름" dataIndex="pet" key="pet" />
-      <Column title="나이" dataIndex="age" key="age" />
-      <Column title="성별" dataIndex="sex" key="sex" />
-      <Column title="종류" dataIndex="species" key="species" />
-    </ColumnGroup>
+  <Table dataSource={data} pagination={false} style={{ height: "100%" }}>
+    <Column title="요일" dataIndex="day" key="day" />
+    <Column title="진료시간" dataIndex="workingHour" key="workingHour" />
+
+    <Column title="점심시간" dataIndex="lunchHour" key="lunchHour" />
 
     <Column
-      title="진료항목"
+      title="비고"
       dataIndex="category"
       key="category"
       render={(category: string[]) => (

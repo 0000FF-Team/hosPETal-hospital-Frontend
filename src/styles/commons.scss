@@ -8,7 +8,7 @@ button {
   border-radius: 6px;
   border: none;
   background-color: $primary;
-  color: $white;
+  color: white;
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
@@ -29,7 +29,7 @@ button {
   margin-bottom: 15px;
   border-radius: 6px;
   border: 1px solid $primary;
-  background-color: $white;
+  background-color: white;
   color: $primary;
   font-weight: 500;
   font-size: 16px;
@@ -37,7 +37,7 @@ button {
 
   &:hover {
     border: 1px solid $primary300;
-    background-color: $white;
+    background-color: white;
     color: $primary300;
     transition: all 0.2s ease-out;
   }
@@ -50,7 +50,7 @@ button {
   margin-bottom: 15px;
   border-radius: 6px;
   border: 1px solid $gray300;
-  background-color: $white;
+  background-color: white;
   color: $gray300;
   font-weight: 500;
   font-size: 16px;
@@ -58,7 +58,7 @@ button {
 
   &:hover {
     border: 1px solid $gray300;
-    background-color: $white;
+    background-color: white;
     color: $gray300;
     transition: all 0.2s ease-out;
   }
@@ -71,7 +71,7 @@ button {
 
   &:hover {
     background-color: $errorLight;
-    color: $white;
+    color: white;
   }
 }
 
@@ -80,13 +80,13 @@ button {
   height: 45px;
   margin-bottom: 0;
   margin-left: 10px;
-  background-color: $white;
+  background-color: white;
   border: 1px solid $primary;
   color: $primary;
 
   &:hover {
     background-color: $primary;
-    color: $white;
+    color: white;
   }
 }
 
@@ -94,13 +94,13 @@ button {
   width: 45px;
   height: 45px;
   margin-bottom: 0;
-  background-color: $white;
+  background-color: white;
   border: 1px solid $error;
   color: $error;
 
   &:hover {
     background-color: $error;
-    color: $white;
+    color: white;
   }
 }
 

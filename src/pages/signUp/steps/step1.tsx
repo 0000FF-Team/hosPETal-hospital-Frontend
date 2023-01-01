@@ -1,7 +1,7 @@
 import React from "react";
 import ImageUploadInput from "../../../components/Inputs/ImageUploadInput";
 
-export default function SignUpStep1Page() {
+const SignUpStep1Page = () => {
   return (
     <div className="step_wrapper">
       <h2 className="step_h2"> 병원 기본 정보 등록</h2>
@@ -38,10 +38,17 @@ export default function SignUpStep1Page() {
         <input />
       </div>
 
-      <div className="step_top_input_wrapper">
-        <h3 className="step_h3_top">병원 사진</h3>
+      <div className="step_top_input_wrapper ">
+        <h3 className="step_h3_top step_h3_img">병원 로고</h3>
+        <ImageUploadInput />
+      </div>
+
+      <div className="step_top_input_wrapper ">
+        <h3 className="step_h3_top step_h3_img">병원 사진</h3>
         <ImageUploadInput />
       </div>
     </div>
   );
-}
+};
+
+export default SignUpStep1Page;

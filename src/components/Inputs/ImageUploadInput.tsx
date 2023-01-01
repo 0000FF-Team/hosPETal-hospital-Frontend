@@ -23,11 +23,9 @@ export default function ImageUploadInput() {
 
   return (
     <Wrapper>
-      <div>
-        <Button onClick={onClickUploadBtn}>
-          <PlusIcon src="/images/icons/add.png" />
-        </Button>
-      </div>
+      <Button onClick={onClickUploadBtn}>
+        <PlusIcon src="/images/icons/add.png" />
+      </Button>
 
       <InputWrapper>
         <input ref={ref} onChange={onChangeImage} type="file" multiple={true} />
@@ -38,7 +36,9 @@ export default function ImageUploadInput() {
   );
 }
 
-const Wrapper = styled.div``;
+const Wrapper = styled.div`
+  display: flex;
+`;
 
 const Button = styled.button`
   width: 100px;
@@ -47,6 +47,7 @@ const Button = styled.button`
   color: #333;
   font-size: 22px;
   font-weight: 200;
+  margin: 0 15px 0 0;
 `;
 
 const PlusIcon = styled.img`

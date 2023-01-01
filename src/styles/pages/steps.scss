@@ -41,6 +41,7 @@
   width: 720px;
   display: flex;
   justify-content: flex-start;
+  // align-items: flex-start;
   align-items: center;
   margin-bottom: 15px;
 }
@@ -59,12 +60,6 @@
   margin-right: 60px;
 }
 
-.step_date_wrapper {
-  width: 590px;
-  display: flex;
-  justify-content: space-between;
-}
-
 .step_h3_top {
   font-weight: 500;
   min-width: 70px;
@@ -74,6 +69,16 @@
   text-align: left;
   padding-top: 12px;
   margin-right: 60px;
+}
+
+.step_h3_img {
+  padding-top: 40px;
+}
+
+.step_date_wrapper {
+  width: 590px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .step_input_column_wrapper {

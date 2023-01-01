@@ -6,7 +6,7 @@ import SignUpStep3Page from "./step3";
 import "../../../styles/pages/steps.scss";
 import { Link } from "react-router-dom";
 
-export default function SignUpStepsPage() {
+const SignUpStepsPage = () => {
   return (
     <div className="steps_container">
       <h1 className="step_h1">병원 정보 등록</h1>
@@ -38,4 +38,6 @@ export default function SignUpStepsPage() {
       </div>
     </div>
   );
-}
+};
+
+export default SignUpStepsPage;

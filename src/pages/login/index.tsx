@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "../../styles/pages/login.scss";
 
-export default function LoginPage() {
+const LoginPage = () => {
   return (
     <div className="container">
       <img className="logo" src="/images/logo/logo-v3.png" alt="로고 이미지" />
@@ -21,4 +21,6 @@ export default function LoginPage() {
       </Link>
     </div>
   );
-}
+};
+
+export default LoginPage;

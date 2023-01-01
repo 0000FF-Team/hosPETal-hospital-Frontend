@@ -1,9 +1,7 @@
-import styled from "@emotion/styled";
 import React from "react";
-import { Link } from "react-router-dom";
 import DatePicker02 from "../../../components/Picker/DatePicker02";
 
-export default function SignUpStep3Page() {
+const SignUpStep3Page = () => {
   return (
     <div className="step_wrapper">
       <h2 className="step_h2"> *의료진 정보 등록</h2>
@@ -54,4 +52,6 @@ export default function SignUpStep3Page() {
       </div>
     </div>
   );
-}
+};
+
+export default SignUpStep3Page;

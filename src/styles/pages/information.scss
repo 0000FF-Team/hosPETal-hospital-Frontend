@@ -1,0 +1,47 @@
+@import "../global.scss";
+@import "../variables.scss";
+
+.info_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 180px 0 100px 0;
+  background-color: $bg3;
+}
+
+.info_item_wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  margin-top: 40px;
+}
+
+.info_item_wrapper2 {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin-top: 100px;
+}
+
+.info_h2 {
+  width: 150px;
+  margin-right: 60px;
+  text-align: left;
+}
+
+.info_info {
+  width: 100%;
+}
+
+.info_h1 {
+  margin-bottom: 40px;
+}
+
+.info_doctor {
+  padding-bottom: 15px;
+}
+
+.btn_info_edit {
+  margin-top: 80px;
+  width: 340px;
+}
