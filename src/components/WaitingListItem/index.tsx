@@ -6,7 +6,7 @@ import "../../styles/pages/main.scss";
 
 export default function WaitingListItem() {
   return (
-    <Link to={"/reservation/id"}>
+    <Link to={"/reservation/[reservationId]"}>
       <div className="waiting_list">
         <div className="info_wrapper">
           <h2 className="info_reserve_time">

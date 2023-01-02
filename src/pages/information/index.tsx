@@ -1,7 +1,7 @@
 import { Tag } from "antd";
 import React from "react";
-import SimpleTable from "../../components/Table/SimpleTable";
 import "../../styles/pages/information.scss";
+import InformationTable from "./InformationTable";
 
 const InformationPage = () => {
   return (
@@ -74,7 +74,7 @@ const InformationPage = () => {
         <h1 className="info_h1">진료 정보</h1>
 
         <div>
-          <SimpleTable />
+          <InformationTable />
         </div>
       </div>
 

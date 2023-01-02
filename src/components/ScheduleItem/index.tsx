@@ -10,7 +10,7 @@ import "../../styles/pages/main.scss";
 
 const ScheduleItem = () => {
   return (
-    <Link to={"/reservation/id"}>
+    <Link to={"/reservation/[reservationId]"}>
       <div className="main_item_wrapper">
         <div className="main_item_info">
           <strong className="main_item_info_time">15시 00분</strong>

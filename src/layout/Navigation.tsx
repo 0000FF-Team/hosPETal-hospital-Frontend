@@ -17,6 +17,10 @@ export default function Navigation() {
         <Link to={"/reservation"}>
           <div className="menu">예약 관리</div>
         </Link>
+
+        <Link to={"/inquiry"}>
+          <div className="menu">문의하기</div>
+        </Link>
       </div>
 
       <Link to={"/mypage"}>

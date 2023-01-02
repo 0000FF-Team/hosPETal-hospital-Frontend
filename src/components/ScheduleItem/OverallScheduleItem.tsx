@@ -11,7 +11,7 @@ const OverallScheduleItem = () => {
 
       <div className="reservation_item_info_wrapper">
         {[1, 2, 3, 4].map((el) => (
-          <Link to={"/reservation/id"} key={el}>
+          <Link to={"/reservation/[reservationId]"} key={el}>
             <div className="reservation_item_info">
               <strong>15시 00분</strong>
               <strong>코카스페니얼</strong>

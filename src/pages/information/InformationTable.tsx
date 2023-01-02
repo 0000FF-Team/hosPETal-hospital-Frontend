@@ -70,7 +70,7 @@ const data: DataType[] = [
   },
 ];
 
-const SimpleTable: React.FC = () => (
+const InformationTable: React.FC = () => (
   <Table dataSource={data} pagination={false} style={{ height: "100%" }}>
     <Column title="요일" dataIndex="day" key="day" />
     <Column title="진료시간" dataIndex="workingHour" key="workingHour" />
@@ -94,4 +94,4 @@ const SimpleTable: React.FC = () => (
   </Table>
 );
 
-export default SimpleTable;
+export default InformationTable;

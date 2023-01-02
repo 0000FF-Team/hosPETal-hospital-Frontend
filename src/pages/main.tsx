@@ -1,7 +1,6 @@
 import React from "react";
 import NoticeCalendar from "../components/Calendar";
 import ScheduleItem from "../components/ScheduleItem";
-import SimpleTable from "../components/Table/SimpleTable";
 import WaitingListItem from "../components/WaitingListItem";
 import "../styles/pages/main.scss";
 

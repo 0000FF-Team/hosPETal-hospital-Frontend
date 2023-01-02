@@ -11,7 +11,10 @@ import MainPage from "./pages/main";
 import InformationPage from "./pages/information/index";
 import ReservationPage from "./pages/reservation/index";
 import Layout from "./layout";
-import ReservationDetailPage from "./pages/reservation/[id]";
+import ReservationDetailPage from "./pages/reservation/[reservationId]";
+import InquiryListPage from "./pages/inquiry";
+import InquiryDetailPage from "./pages/inquiry/[inquiryId]";
+import InquiryWritePage from "./pages/inquiry/new";
 
 function App() {
   return (
@@ -24,7 +27,13 @@ function App() {
           <Route path="/main" element={<MainPage />} />
           <Route path="/information" element={<InformationPage />} />
           <Route path="/reservation" element={<ReservationPage />} />
-          <Route path="/reservation/id" element={<ReservationDetailPage />} />
+          <Route
+            path="/reservation/[reservationId]"
+            element={<ReservationDetailPage />}
+          />
+          <Route path="/inquiry" element={<InquiryListPage />} />
+          <Route path="/inquiry/new" element={<InquiryWritePage />} />
+          <Route path="/inquiry/[inquiryId]" element={<InquiryDetailPage />} />
         </Routes>
       </Layout>
     </BrowserRouter>
