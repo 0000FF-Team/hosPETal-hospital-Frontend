@@ -1,7 +1,5 @@
-import { Tag } from "antd";
 import React from "react";
 import NoticeCalendar from "../components/Calendar";
-import Navigation from "../components/Navigation";
 import ScheduleItem from "../components/ScheduleItem";
 import SimpleTable from "../components/Table/SimpleTable";
 import WaitingListItem from "../components/WaitingListItem";
@@ -10,8 +8,6 @@ import "../styles/pages/main.scss";
 const MainPage = () => {
   return (
     <div>
-      <Navigation />
-
       <div className="main_wrapper">
         <div className="main_top_wrapper">
           <div className="calendar_wrapper">

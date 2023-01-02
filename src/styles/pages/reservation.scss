@@ -1,5 +1,11 @@
 @import "../variables.scss";
 
+.reservation_wrapper {
+  padding-bottom: 0;
+  height: 89vh;
+  overflow: hidden;
+}
+
 .schedule_title {
   padding-bottom: 30px;
 }
@@ -23,7 +29,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 510px;
+  width: 440px;
   padding: 10px 0 10px 10px;
   border-radius: 6px;
   color: black;

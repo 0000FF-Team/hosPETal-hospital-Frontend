@@ -3,7 +3,7 @@ import ProcessBar from "../../../components/ProcessBar";
 import SignUpStep1Page from "./step1";
 import SignUpStep2Page from "./step2";
 import SignUpStep3Page from "./step3";
-import "../../../styles/pages/steps.scss";
+import "../../../styles/pages/signup.steps.scss";
 import { Link } from "react-router-dom";
 
 const SignUpStepsPage = () => {

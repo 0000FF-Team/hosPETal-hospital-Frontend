@@ -1,0 +1,134 @@
+@import "../variables.scss";
+
+.reservation_detail_wrapper {
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  // background-color: yellow;
+}
+
+.reservation_info_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  // align-items: flex-start;
+  width: 60%;
+  padding-bottom: 30px;
+}
+
+.reservation_info_time_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.reservation_h1 {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+}
+
+.reservation_info_time {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.tag_inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 40px;
+  font-size: 17px;
+}
+
+.reservation_info {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+}
+
+.reservation_pet_info_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 740px;
+  height: 265px;
+  padding: 20px;
+  border-radius: 6px;
+  background-color: $bg1;
+  margin-right: 15px;
+}
+
+.reservation_pet_image {
+  width: 150px;
+  height: 150px;
+  border-radius: 6px;
+  margin-right: 20px;
+  background-color: lightgrey;
+}
+
+.reservation_pet_info {
+  display: flex;
+  margin-top: 17px;
+}
+
+.reservation_pet_infos {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 18px;
+}
+
+.reservation_owner_info_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+  border-radius: 6px;
+  background-color: $bg2;
+}
+
+.reservation_owner_infos {
+  height: 150px;
+  margin-top: 17px;
+  font-size: 18px;
+}
+
+.reservation_owner_info {
+  padding-bottom: 10px;
+}
+
+.reservation_specific_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 60%;
+  padding: 20px;
+  margin-top: 15px;
+  margin-bottom: 30px;
+
+  border-radius: 6px;
+  background-color: $bg3;
+}
+
+.reservation_specifics {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100px;
+  margin-top: 17px;
+  font-size: 16px;
+}
+
+.reservation_btn_wrapper {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.reservation_btn {
+  width: 50%;
+}

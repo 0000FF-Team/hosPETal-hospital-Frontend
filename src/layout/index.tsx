@@ -1,5 +1,6 @@
 import React, { ReactNode } from "react";
 import Navigation from "../components/Navigation";
+import "../styles/layout.scss";
 
 interface IProps {
   children: ReactNode;
@@ -8,12 +9,11 @@ interface IProps {
 const HIDDEN_NAV = ["/signup"];
 
 const Layout = (props: IProps) => {
-  console.log("router");
   // const isHiddenNav = HIDDEN_NAV.router
   return (
     <div>
       <Navigation />
-      <div>{props.children}</div>
+      <div className="layout_body">{props.children}</div>
     </div>
   );
 };
