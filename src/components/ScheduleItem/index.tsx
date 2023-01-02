@@ -36,7 +36,7 @@ const ScheduleItem = () => {
           </div>
 
           <div className="main_btn_wrapper">
-            <button className="btn_cancel btn_middle">예약 취소</button>
+            <button className="btn_error btn_middle">예약 취소</button>
             <button className="btn_middle">예약 확정</button>
           </div>
         </div>

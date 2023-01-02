@@ -36,10 +36,11 @@ button {
   line-height: 19px;
 
   &:hover {
-    border: 1px solid $primary300;
+    // background-color: $primary;
+    // color: white;
+    border: 1px solid $primary200;
+    color: $primary200;
     background-color: white;
-    color: $primary300;
-    transition: all 0.2s ease-out;
   }
 }
 
@@ -64,7 +65,7 @@ button {
   }
 }
 
-.btn_cancel {
+.btn_error {
   height: 45px;
   margin-bottom: 0;
   background-color: $error;
@@ -75,22 +76,7 @@ button {
   }
 }
 
-.btn_approve_empty {
-  width: 45px;
-  height: 45px;
-  margin-bottom: 0;
-  margin-left: 10px;
-  background-color: white;
-  border: 1px solid $primary;
-  color: $primary;
-
-  &:hover {
-    background-color: $primary;
-    color: white;
-  }
-}
-
-.btn_cancel_empty {
+.btn_error_empty {
   width: 45px;
   height: 45px;
   margin-bottom: 0;
@@ -99,8 +85,12 @@ button {
   color: $error;
 
   &:hover {
-    background-color: $error;
-    color: white;
+    // background-color: $error;
+    // color: white;
+
+    border: 1px solid $errorLight;
+    color: $errorLight;
+    background-color: white;
   }
 }
 

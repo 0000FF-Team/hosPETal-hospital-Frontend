@@ -1,6 +1,7 @@
 import React from "react";
 import { Space, Table, Tag } from "antd";
 import type { ColumnsType } from "antd/es/table";
+import { Link } from "react-router-dom";
 
 export interface DataType {
   key: string;
@@ -43,7 +44,9 @@ const columns: ColumnsType<DataType> = [
     key: "action",
     render: () => (
       <Space size="large">
-        <a>더보기</a>
+        <Link to={"/inquiry/[inquiryId]"}>
+          <a>더보기</a>
+        </Link>
         <a>삭제하기</a>
       </Space>
     ),

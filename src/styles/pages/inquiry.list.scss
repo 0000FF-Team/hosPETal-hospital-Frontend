@@ -11,6 +11,12 @@
   padding-top: 40px;
 }
 
+.inquiry_btn_write_wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
 .btn_write {
   align-self: flex-end;
   width: 200px;
@@ -20,7 +26,6 @@
 
 .btn_write_span {
   padding-left: 10px;
-  color: $primary;
 }
 
 .table_column_title {
@@ -47,6 +52,7 @@
   padding: 0 20px;
   border-bottom: 0.5px solid #eee;
   color: black;
+  background-color: white;
 
   &:hover {
     background-color: $bg2;

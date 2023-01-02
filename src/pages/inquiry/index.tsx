@@ -43,12 +43,15 @@ const InquiryListPage = () => {
   return (
     <div className="inquiry_list">
       <h1>문의 내역</h1>
-      <button className="btn_empty btn_write">
+
+      <div className="inquiry_btn_write_wrapper">
         <Link to={"/inquiry/new"}>
-          <EditOutlined style={{ color: "#1a8de9" }} />
-          <span className="btn_write_span">문의글 작성하기</span>
+          <button className="btn_empty btn_write">
+            <EditOutlined />
+            <span className="btn_write_span">문의글 작성하기</span>
+          </button>
         </Link>
-      </button>
+      </div>
 
       <InquiryListTable />
 

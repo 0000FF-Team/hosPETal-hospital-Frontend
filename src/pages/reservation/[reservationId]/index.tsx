@@ -68,7 +68,7 @@ const ReservationDetailPage = () => {
       <div className="reservation_btn_wrapper">
         <button
           onClick={onClickRejectReservation}
-          className="btn_cancel reservation_btn"
+          className="btn_error reservation_btn"
         >
           예약 거절
         </button>
