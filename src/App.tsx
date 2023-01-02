@@ -11,6 +11,7 @@ import MainPage from "./pages/main";
 import InformationPage from "./pages/information/index";
 import ReservationPage from "./pages/reservation/index";
 import Layout from "./layout";
+import ReservationDetailPage from "./pages/reservation/[id]";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path="/main" element={<MainPage />} />
           <Route path="/information" element={<InformationPage />} />
           <Route path="/reservation" element={<ReservationPage />} />
+          <Route path="/reservation/id" element={<ReservationDetailPage />} />
         </Routes>
       </Layout>
     </BrowserRouter>

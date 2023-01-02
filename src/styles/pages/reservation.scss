@@ -1,0 +1,39 @@
+@import "../variables.scss";
+
+.schedule_title {
+  padding-bottom: 30px;
+}
+
+.reservation_item_wrapper {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.reservation_item_date {
+  padding-bottom: 15px;
+}
+
+.reservation_item_info_wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.reservation_item_info {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 510px;
+  padding: 10px 0 10px 10px;
+  border-radius: 6px;
+  color: black;
+
+  &:hover {
+    background-color: $bg3;
+  }
+}
+
+.reservation_item_info_wrapper {
+  display: flex;
+  height: auto;
+}

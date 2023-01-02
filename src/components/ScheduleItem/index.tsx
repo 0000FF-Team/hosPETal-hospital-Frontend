@@ -7,10 +7,10 @@ import { Tag } from "antd";
 import React from "react";
 import "../../styles/pages/main.scss";
 
-export default function ScheduleItem() {
+const ScheduleItem = () => {
   return (
     <div className="main_item_wrapper">
-      <div className="main_item_pet_info">
+      <div className="main_item_info">
         <strong className="main_item_info_time">15시 00분</strong>
         <strong>치아 검진</strong>
 
@@ -20,7 +20,7 @@ export default function ScheduleItem() {
         </div>
       </div>
 
-      <div className="main_item_right_wrapper">
+      <div className="main_item_tag_wrapper">
         <div className="">
           <Tag icon={<ClockCircleOutlined />} color="default">
             예약 대기 중
@@ -40,4 +40,6 @@ export default function ScheduleItem() {
       </div>
     </div>
   );
-}
+};
+
+export default ScheduleItem;
