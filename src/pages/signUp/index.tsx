@@ -6,7 +6,7 @@ const SignUpPage = () => {
   return (
     <div className="container">
       <img className="logo" src="/images/logo/logo-v3.png" alt="로고 이미지" />
-      <h1>회원 정보 등록</h1>
+      <h1 className="signup_h1">회원 정보 등록</h1>
 
       <div className="signup_wrapper">
         <div>

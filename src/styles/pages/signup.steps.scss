@@ -1,16 +1,12 @@
 @import "../global.scss";
 @import "../variables.scss";
 
-.steps_container {
-  padding-top: 125px;
-}
-
 .step_h1 {
-  padding-bottom: 50px;
+  padding-bottom: 60px;
 }
 
 .step_h2 {
-  padding-bottom: 65px;
+  padding-bottom: 60px;
 }
 
 .create_info_wrapper {
@@ -69,6 +65,26 @@
   text-align: left;
   padding-top: 12px;
   margin-right: 60px;
+}
+
+.signup_textarea {
+  width: 550px;
+  height: 200px;
+  padding: 20px;
+  line-height: 20px;
+  border-radius: 6px;
+  background-color: $gray100;
+}
+
+.signup_number_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+}
+
+.signup_number {
+  width: 100px;
 }
 
 .step_h3_img {

@@ -23,7 +23,7 @@ export default function Navigation() {
         </Link>
       </div>
 
-      <Link to={"/mypage"}>
+      <Link to={"/"}>
         <div className="nav_profile">해피병원</div>
       </Link>
     </div>

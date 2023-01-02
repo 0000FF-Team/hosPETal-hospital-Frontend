@@ -29,7 +29,7 @@ function App() {
           <Route path="/information" element={<InformationPage />} />
           <Route path="/reservation" element={<ReservationPage />} />
           <Route
-            path="/reservation/[reservationId]"
+            path="/reservation/:reservationId"
             element={<ReservationDetailPage />}
           />
           <Route path="/inquiry" element={<InquiryListPage />} />

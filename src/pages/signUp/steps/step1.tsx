@@ -8,18 +8,24 @@ const SignUpStep1Page = () => {
 
       <div className="step_input_wrapper">
         <h3 className="step_h3">*병원명</h3>
-        <input className="step_input" />
+        <input placeholder="강남해피동물병원" className="step_input" />
       </div>
 
       <div className="step_top_input_wrapper">
         <h3 className="step_h3_top">병원 소개</h3>
-        <textarea></textarea>
+        <textarea
+          placeholder="오랜 임플란트 수술 경력을 가진 의료진의 풍부한 노하우로 정밀한 진단과 꼼꼼하게 진료해드립니다."
+          className="signup_textarea"
+        ></textarea>
       </div>
 
       <div className="step_input_wrapper">
         <h3 className="step_h3">*전화</h3>
-        <input type="number" /> - <input type="number" /> -{" "}
-        <input type="number" />
+        <div className="signup_number_wrapper">
+          <input placeholder="02" className="signup_number" type="number" /> -{" "}
+          <input placeholder="3456" className="signup_number" type="number" /> -{" "}
+          <input placeholder="7890" className="signup_number" type="number" />
+        </div>
       </div>
 
       <div className="step_top_input_wrapper">
@@ -27,15 +33,17 @@ const SignUpStep1Page = () => {
 
         <div className="step_input_column_wrapper">
           <div>
-            <button className="btn_search">검색하기</button> <input />
+            <button className="btn_search">검색하기</button>{" "}
+            <input placeholder="주소를 검색하세요" />
+            {/* <input placeholder="14547" /> */}
           </div>
-          <input />
+          <input placeholder="상세주소를 입력하세요" />
         </div>
       </div>
 
       <div className="step_input_wrapper">
         <h3 className="step_h3">태그</h3>
-        <input />
+        <input placeholder="태그 입력 후 스페이스바를 눌러주세요" />
       </div>
 
       <div className="step_top_input_wrapper ">

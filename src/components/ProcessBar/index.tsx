@@ -12,7 +12,7 @@ export default function ProcessBar() {
       sx={{
         [`& .${timelineItemClasses.root}:before`]: {
           flex: 0,
-          paddingLeft: "100px",
+          // paddingLeft: "100px",
         },
       }}
     >

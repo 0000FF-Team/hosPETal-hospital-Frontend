@@ -13,8 +13,9 @@
   margin-right: -95px;
 }
 
-h1 {
-  padding-bottom: 34px;
+.signup_h1 {
+  padding-bottom: 30px;
+  font-size: 19px;
 }
 
 .input_wrapper {
@@ -27,7 +28,6 @@ h1 {
   flex-direction: column;
   justify-content: space-between;
   margin-left: 15px;
-  background-color: pink;
 }
 
 .btn_approve {
@@ -38,7 +38,7 @@ h1 {
 
 .btn_next {
   width: 340px;
-  margin-top: 60px;
+  margin-top: 40px;
 }
 
 .eye {
