@@ -1,9 +1,17 @@
 import React from "react";
 import "../../../styles/pages/reservation.detail.scss";
 import { Tag } from "antd";
-import { fontSize } from "@mui/system";
 
 const ReservationDetailPage = () => {
+  const onClickRejectReservation = () => {
+    alert("예약을 거절합니다! 사유를 작성해주세요.");
+    history.back();
+  };
+
+  const onClickApproveReservation = () => {
+    alert("예약이 확정되었습니다!");
+    history.back();
+  };
   return (
     <div className="reservation_detail_wrapper">
       <div className="reservation_info_wrapper">
@@ -58,8 +66,15 @@ const ReservationDetailPage = () => {
       </div>
 
       <div className="reservation_btn_wrapper">
-        <button className="btn_cancel reservation_btn">예약 거절</button>
-        <button className="reservation_btn">예약 확정</button>
+        <button
+          onClick={onClickRejectReservation}
+          className="btn_cancel reservation_btn"
+        >
+          예약 거절
+        </button>
+        <button onClick={onClickApproveReservation} className="reservation_btn">
+          예약 확정
+        </button>
       </div>
     </div>
   );
