@@ -1,6 +1,6 @@
 import React, { ReactNode } from "react";
-import Navigation from "../components/Navigation";
 import "../styles/layout.scss";
+import Navigation from "./\bNavigation";
 
 interface IProps {
   children: ReactNode;
