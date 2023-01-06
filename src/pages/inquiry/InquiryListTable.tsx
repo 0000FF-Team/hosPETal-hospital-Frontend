@@ -44,10 +44,9 @@ const columns: ColumnsType<DataType> = [
     key: "action",
     render: () => (
       <Space size="large">
-        <Link to={"/inquiry/[inquiryId]"}>
-          <a>더보기</a>
-        </Link>
-        <a>삭제하기</a>
+        <Link to={"/inquiry/:inquiryId"}>더보기</Link>
+
+        <div>삭제하기</div>
       </Space>
     ),
   },

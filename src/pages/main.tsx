@@ -16,8 +16,8 @@ const MainPage = () => {
             <strong className="clicked_date">2022년 12월 30일 금요일 </strong>
 
             <div className="schedule_item_wrapper">
-              {[1, 2, 3, 4, 5, 6, 7].map((el) => (
-                <ScheduleItem key={el} />
+              {[1, 2, 3, 4, 5, 6, 7].map((el, i) => (
+                <ScheduleItem key={i} />
               ))}
             </div>
           </div>
@@ -30,8 +30,8 @@ const MainPage = () => {
           </div>
 
           <div className="waiting_list_item_wrapper">
-            {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12].map((el) => (
-              <WaitingListItem key={el} />
+            {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12].map((el, i) => (
+              <WaitingListItem key={i} />
             ))}
           </div>
         </div>

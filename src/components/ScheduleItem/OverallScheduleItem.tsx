@@ -10,8 +10,8 @@ const OverallScheduleItem = () => {
       <h2 className="reservation_item_date">2023년 1월 2일 월요일</h2>
 
       <div className="reservation_item_info_wrapper">
-        {[1, 2, 3, 4].map((el) => (
-          <Link to={"/reservation/:reservationId"} key={el}>
+        {[1, 2, 3, 4].map((el, i) => (
+          <Link to={"/reservation/:reservationId"} key={i}>
             <div className="reservation_item_info">
               <strong>15시 00분</strong>
               <strong>코카스페니얼</strong>

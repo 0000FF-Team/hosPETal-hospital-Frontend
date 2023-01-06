@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./App.css";
 import "./styles/global.scss";
 import "./styles/variables.scss";
@@ -18,6 +18,10 @@ import InquiryWritePage from "./pages/inquiry/new";
 import InquiryEditPage from "./pages/inquiry/[inquiryId]/edit";
 
 function App() {
+  // useEffect(() => {
+  //   console.log("변경@!!!!!", location.pathname);
+  // }, [location.pathname]);
+
   return (
     <BrowserRouter>
       <Layout>
@@ -25,7 +29,7 @@ function App() {
           <Route path="/" element={<LoginPage />} />
           <Route path="/signup" element={<SignUpPage />} />
           <Route path="/signup_steps" element={<SignUpStepsPage />} />
-          <Route path="/main" element={<MainPage />} />
+          <Route path="/main" element={<MainPage />}></Route>
           <Route path="/information" element={<InformationPage />} />
           <Route path="/reservation" element={<ReservationPage />} />
           <Route
@@ -34,9 +38,9 @@ function App() {
           />
           <Route path="/inquiry" element={<InquiryListPage />} />
           <Route path="/inquiry/new" element={<InquiryWritePage />} />
-          <Route path="/inquiry/[inquiryId]" element={<InquiryDetailPage />} />
+          <Route path="/inquiry/:inquiryId" element={<InquiryDetailPage />} />
           <Route
-            path="/inquiry/[inquiryId]/edit"
+            path="/inquiry/:inquiryId/edit"
             element={<InquiryEditPage />}
           />
         </Routes>

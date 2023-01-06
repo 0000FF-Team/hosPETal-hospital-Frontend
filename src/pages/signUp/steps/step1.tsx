@@ -1,5 +1,5 @@
 import React from "react";
-import ImageUploadInput from "../../../components/Inputs/ImageUploadInput";
+import ImageMultipleUploadInput from "../../../components/Inputs/ImageMultipleUploadInput";
 
 const SignUpStep1Page = () => {
   return (
@@ -8,7 +8,11 @@ const SignUpStep1Page = () => {
 
       <div className="step_input_wrapper">
         <h3 className="step_h3">*병원명</h3>
-        <input placeholder="강남해피동물병원" className="step_input" />
+        <input
+          autoFocus
+          placeholder="강남해피동물병원"
+          className="step3_input"
+        />
       </div>
 
       <div className="step_top_input_wrapper">
@@ -34,26 +38,24 @@ const SignUpStep1Page = () => {
         <div className="step_input_column_wrapper">
           <div>
             <button className="btn_search">검색하기</button>{" "}
-            <input placeholder="주소를 검색하세요" />
+            <input style={{ width: "380px" }} placeholder="주소를 검색하세요" />
             {/* <input placeholder="14547" /> */}
           </div>
-          <input placeholder="상세주소를 입력하세요" />
+          <input className="step3_input" placeholder="상세주소를 입력하세요" />
         </div>
       </div>
 
       <div className="step_input_wrapper">
         <h3 className="step_h3">태그</h3>
-        <input placeholder="태그 입력 후 스페이스바를 눌러주세요" />
-      </div>
-
-      <div className="step_top_input_wrapper ">
-        <h3 className="step_h3_top step_h3_img">병원 로고</h3>
-        <ImageUploadInput />
+        <input
+          className="step3_input"
+          placeholder="태그 입력 후 스페이스바를 눌러주세요"
+        />
       </div>
 
       <div className="step_top_input_wrapper ">
         <h3 className="step_h3_top step_h3_img">병원 사진</h3>
-        <ImageUploadInput />
+        <ImageMultipleUploadInput />
       </div>
     </div>
   );

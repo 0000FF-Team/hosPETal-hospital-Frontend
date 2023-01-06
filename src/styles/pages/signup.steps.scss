@@ -11,33 +11,36 @@
 
 .create_info_wrapper {
   display: flex;
+  justify-content: flex-end;
 }
 
 .steps_wrapper {
   width: 75vw;
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .process_wrapper {
+  position: fixed;
+  top: 200px;
+  left: 70px;
   width: 25vw;
 }
 
 .step_wrapper {
-  // width: 75vw;
   width: 750px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  padding-bottom: 100px;
+  padding-bottom: 150px;
 }
 
 .step_input_wrapper {
   width: 720px;
   display: flex;
   justify-content: flex-start;
-  // align-items: flex-start;
   align-items: center;
   margin-bottom: 15px;
 }
@@ -109,6 +112,14 @@
 
 .step_input {
   width: 400px;
+}
+
+.step3_input {
+  width: 550px;
+}
+
+.step3_wrapper {
+  padding-bottom: 100px;
 }
 
 .step_3_item_wrapper {

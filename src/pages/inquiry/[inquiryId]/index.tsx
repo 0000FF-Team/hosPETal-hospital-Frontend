@@ -26,7 +26,7 @@ const InquiryDetailPage = () => {
         >
           삭제하기
         </button>
-        <Link to={"/inquiry/[inquiryId]/edit"}>
+        <Link to={"/inquiry/:inquiryId/edit"}>
           <button className="btn_submit btn_empty btn_inquiry_detail">
             수정하기
           </button>

@@ -1,7 +1,7 @@
 import styled from "@emotion/styled";
 import React, { useRef, useState } from "react";
 
-export default function ImageUploadInput() {
+const ImageMultipleUploadInput = () => {
   const ref = useRef<any>(null);
   const [preview, setPreview] = useState("");
 
@@ -34,7 +34,7 @@ export default function ImageUploadInput() {
       <Preview src={preview} />
     </Wrapper>
   );
-}
+};
 
 const Wrapper = styled.div`
   display: flex;
@@ -64,3 +64,5 @@ const Preview = styled.img`
   width: 100px;
   border-radius: 6px;
 `;
+
+export default ImageMultipleUploadInput;

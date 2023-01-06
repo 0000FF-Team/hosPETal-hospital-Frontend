@@ -65,7 +65,7 @@ const InquiryListPage = () => {
 
         {data.map((el) => (
           <div key={el.number}>
-            <Link to={"/inquiry/[inquiryId]"}>
+            <Link to={"/inquiry/:inquiryId"}>
               <div className="table_column">
                 <div className="table_others">{el.number}</div>
                 <div className="table_title">{el.title}</div>
