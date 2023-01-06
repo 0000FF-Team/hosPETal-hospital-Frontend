@@ -2,13 +2,32 @@ import React from "react";
 import ImageMultipleUploadInput from "../../../components/Inputs/ImageMultipleUploadInput";
 import { useState } from "react";
 import DaumPostcode from "../../../components/DaumPostcode";
+import { Tag } from "antd";
 
 const SignUpStep1Page = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [address, setAddress] = useState("");
+  const [tagArr, setTagArr] = useState<string[]>([]);
 
   const onClickSearchBtn = () => {
     setIsOpen((prev) => !prev);
+  };
+
+  const onKeyupTag = (e: any) => {
+    if (e.key === " " && e.target.value !== "") {
+      if (tagArr.filter((el) => el === e.target.value).length >= 1) {
+        e.target.value = "";
+        alert("이미 존재하는 태그입니다.");
+        return;
+      }
+      setTagArr([...tagArr, e.target.value]);
+      e.target.value = "";
+    }
+  };
+
+  const onClickDeleteTag = (e: any) => {
+    tagArr.splice(Number(e.target.id), 1);
+    setTagArr([...tagArr]);
   };
 
   return (
@@ -34,11 +53,15 @@ const SignUpStep1Page = () => {
 
       <div className="step_input_wrapper">
         <h3 className="step_h3">*전화</h3>
-        <div className="signup_number_wrapper">
+        <input
+          placeholder="- 없이 숫자만 입력해주세요"
+          className="step1_input"
+        />
+        {/* <div className="signup_number_wrapper">
           <input placeholder="02" className="signup_number" type="number" /> -{" "}
           <input placeholder="3456" className="signup_number" type="number" /> -{" "}
           <input placeholder="7890" className="signup_number" type="number" />
-        </div>
+        </div> */}
       </div>
 
       <div className="step_top_input_wrapper">
@@ -72,10 +95,30 @@ const SignUpStep1Page = () => {
 
       <div className="step_input_wrapper">
         <h3 className="step_h3">태그</h3>
-        <input
-          className="step1_input"
-          placeholder="태그 입력 후 스페이스바를 눌러주세요"
-        />
+
+        <div className="step_input_tag_wrapper">
+          <input
+            onKeyUp={onKeyupTag}
+            className="step1_input"
+            placeholder="태그 입력 후 스페이스바를 눌러주세요"
+          />
+
+          {tagArr.length >= 1 && (
+            <div className="tag_wrapper">
+              {tagArr.map((el, idx) => (
+                <Tag
+                  key={idx}
+                  onClick={onClickDeleteTag}
+                  id={String(idx)}
+                  style={{ cursor: "pointer" }}
+                  color="blue"
+                >
+                  {el}
+                </Tag>
+              ))}
+            </div>
+          )}
+        </div>
       </div>
 
       <div className="step_top_input_wrapper ">

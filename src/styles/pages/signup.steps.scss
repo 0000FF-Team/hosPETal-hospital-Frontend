@@ -118,6 +118,15 @@
   width: 550px;
 }
 
+.step_input_tag_wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.tag_wrapper {
+  margin-top: 15px;
+}
+
 .modal_postcode_wrapper {
   position: fixed;
   top: 0;
