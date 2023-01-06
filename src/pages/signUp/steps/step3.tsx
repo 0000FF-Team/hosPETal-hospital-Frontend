@@ -16,8 +16,6 @@ const SignUpStep3Page = () => {
     setItem((prev) => prev - 1);
   };
 
-  console.log("🍒", item);
-
   return (
     <div className="step3_wrapper step_wrapper ">
       <h2 className="step_h2"> *의료진 정보 등록</h2>

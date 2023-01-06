@@ -58,6 +58,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-config-prettier", "virtual:7bcd85daaae73920b83715c095ca710b7018d4037142d800cd5747e3f9d7b555d16f4b5bb59649e07334599a3375b32b07146e877c54d7b58261ecd952066060#npm:8.5.0"],\
             ["eslint-plugin-react", "virtual:7bcd85daaae73920b83715c095ca710b7018d4037142d800cd5747e3f9d7b555d16f4b5bb59649e07334599a3375b32b07146e877c54d7b58261ecd952066060#npm:7.31.11"],\
             ["react", "npm:18.2.0"],\
+            ["react-daum-postcode", "virtual:7bcd85daaae73920b83715c095ca710b7018d4037142d800cd5747e3f9d7b555d16f4b5bb59649e07334599a3375b32b07146e877c54d7b58261ecd952066060#npm:3.1.1"],\
             ["react-dom", "virtual:7bcd85daaae73920b83715c095ca710b7018d4037142d800cd5747e3f9d7b555d16f4b5bb59649e07334599a3375b32b07146e877c54d7b58261ecd952066060#npm:18.2.0"],\
             ["react-redux", "virtual:7bcd85daaae73920b83715c095ca710b7018d4037142d800cd5747e3f9d7b555d16f4b5bb59649e07334599a3375b32b07146e877c54d7b58261ecd952066060#npm:8.0.5"],\
             ["react-router-dom", "virtual:7bcd85daaae73920b83715c095ca710b7018d4037142d800cd5747e3f9d7b555d16f4b5bb59649e07334599a3375b32b07146e877c54d7b58261ecd952066060#npm:6.6.1"],\
@@ -10784,6 +10785,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-config-prettier", "virtual:7bcd85daaae73920b83715c095ca710b7018d4037142d800cd5747e3f9d7b555d16f4b5bb59649e07334599a3375b32b07146e877c54d7b58261ecd952066060#npm:8.5.0"],\
             ["eslint-plugin-react", "virtual:7bcd85daaae73920b83715c095ca710b7018d4037142d800cd5747e3f9d7b555d16f4b5bb59649e07334599a3375b32b07146e877c54d7b58261ecd952066060#npm:7.31.11"],\
             ["react", "npm:18.2.0"],\
+            ["react-daum-postcode", "virtual:7bcd85daaae73920b83715c095ca710b7018d4037142d800cd5747e3f9d7b555d16f4b5bb59649e07334599a3375b32b07146e877c54d7b58261ecd952066060#npm:3.1.1"],\
             ["react-dom", "virtual:7bcd85daaae73920b83715c095ca710b7018d4037142d800cd5747e3f9d7b555d16f4b5bb59649e07334599a3375b32b07146e877c54d7b58261ecd952066060#npm:18.2.0"],\
             ["react-redux", "virtual:7bcd85daaae73920b83715c095ca710b7018d4037142d800cd5747e3f9d7b555d16f4b5bb59649e07334599a3375b32b07146e877c54d7b58261ecd952066060#npm:8.0.5"],\
             ["react-router-dom", "virtual:7bcd85daaae73920b83715c095ca710b7018d4037142d800cd5747e3f9d7b555d16f4b5bb59649e07334599a3375b32b07146e877c54d7b58261ecd952066060#npm:6.6.1"],\
@@ -16998,6 +17000,28 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["raf", "npm:3.4.1"],\
             ["regenerator-runtime", "npm:0.13.11"],\
             ["whatwg-fetch", "npm:3.6.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["react-daum-postcode", [\
+        ["npm:3.1.1", {\
+          "packageLocation": "./.yarn/cache/react-daum-postcode-npm-3.1.1-ab829b46dc-a7097f7b57.zip/node_modules/react-daum-postcode/",\
+          "packageDependencies": [\
+            ["react-daum-postcode", "npm:3.1.1"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:7bcd85daaae73920b83715c095ca710b7018d4037142d800cd5747e3f9d7b555d16f4b5bb59649e07334599a3375b32b07146e877c54d7b58261ecd952066060#npm:3.1.1", {\
+          "packageLocation": "./.yarn/__virtual__/react-daum-postcode-virtual-0a34c9d773/0/cache/react-daum-postcode-npm-3.1.1-ab829b46dc-a7097f7b57.zip/node_modules/react-daum-postcode/",\
+          "packageDependencies": [\
+            ["react-daum-postcode", "virtual:7bcd85daaae73920b83715c095ca710b7018d4037142d800cd5747e3f9d7b555d16f4b5bb59649e07334599a3375b32b07146e877c54d7b58261ecd952066060#npm:3.1.1"],\
+            ["@types/react", "npm:18.0.26"],\
+            ["react", "npm:18.2.0"]\
+          ],\
+          "packagePeers": [\
+            "@types/react",\
+            "react"\
           ],\
           "linkType": "HARD"\
         }]\

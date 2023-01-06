@@ -114,8 +114,23 @@
   width: 400px;
 }
 
-.step3_input {
+.step1_input {
   width: 550px;
+}
+
+.modal_postcode_wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+  width: 100%;
+  height: 100%;
+  padding: 300px;
+  background-color: rgba($color: #fff, $alpha: 0.8);
 }
 
 .step3_wrapper {
